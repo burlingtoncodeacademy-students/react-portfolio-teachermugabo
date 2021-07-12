@@ -1,15 +1,16 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import './Nav.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Nav.css";
 
 const Nav = () => (
-  <div className="Nav" data-testid="Nav">
-    Nav Component
-  </div>
+  <nav className="Nav" data-testid="Nav">
+    <Link to="/">Home</Link>
+    <Link to="/about">About</Link>
+    <Link to="/projects">Projects</Link>
+    <Link to="/resume">Resumé</Link>
+    <Link to="/interests">Interests</Link>
+    <Link to="/contact">Contact</Link>
+  </nav>
 );
-
-Nav.propTypes = {};
-
-Nav.defaultProps = {};
 
 export default Nav;

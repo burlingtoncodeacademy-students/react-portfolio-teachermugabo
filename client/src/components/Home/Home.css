@@ -1,1 +1,7 @@
-.Home {}
+.Home {
+}
+
+.Home > img {
+  width: 70%;
+  float: left;
+}
