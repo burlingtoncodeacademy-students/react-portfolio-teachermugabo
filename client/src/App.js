@@ -22,7 +22,7 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/projects" component={Projects} />
           <Route path="/resume" component={Resume} />
-          <Route path="/interests" component={Interests} />
+          {/* <Route path="/interests" component={Interests} /> */}
           <Route path="/contact" component={Contact} />
           <Route
             path="*"
